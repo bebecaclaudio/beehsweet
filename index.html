@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts - Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-    <!-- Font Awesome CDN (AGORA COM 'integrity' CORRIGIDO!) -->
+    <!-- Font Awesome CDN (AGORA COM 'integrity' CORRIGIDO DE VEZ!) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6TaYlQ7r3YceTzVYRxYOxYxESQ5Kfzgrqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         /* Custom font family */
@@ -36,23 +36,23 @@
     <!-- Main container for the application, ensuring full height and responsive centering -->
     <div class="min-h-screen bg-pink-50 flex items-center justify-center p-4 relative">
         <!-- Card-like container for the website content -->
-        <div class="bg-white rounded-3xl max-w-[800px] w-full text-center border border-pink-700 pt-8">
+        <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 max-w-xl w-full text-center border-4 border-pink-200">
             <!-- Logo/Name section for Beeh Sweet - Centralizado -->
-            <h1 class="text-5xl md:text-6xl font-extrabold text-pink-700 mb-6 drop-shadow-md text-center p-4">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-pink-700 mb-6 drop-shadow-md text-center">
                 Beeh Sweet
             </h1>
 
             <!-- Catchy slogan or description -->
-            <p class="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed p-4">
+            <p class="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
                 Doces que você não pede. Você deseja.
             </p>
 
             <!-- Video container for responsive embedding -->
-            <div class="relative w-full overflow-hidden rounded-2xl mb-10 shadow-lg p-4" style="padding-top: 56.25%;">
+            <div class="relative w-full overflow-hidden rounded-2xl mb-10 shadow-lg" style="padding-top: 56.25%;">
                 <!-- iframe for embedding the video -->
                 <iframe
                     class="absolute top-0 left-0 w-full h-full"
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&modestbranding=1&rel=0"
+                    src="https://www.youtube.com/embed/2mFNiIRZCO4?controls=0&modestbranding=1&rel=0"
                     title="Vídeo dos Doces Beeh Sweet"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -61,15 +61,16 @@
             </div>
 
             <!-- Section for Sofia and Beeh Sweet Story with gradient background -->
-            <div class="bg-gradient-to-b from-pink-100 via-yellow-50 to-white rounded-2xl p-6 mb-10 shadow-md w-full mx-4 px-4" style="box-shadow: 0 4px 24px 0 rgba(233,30,99,0.10);">
+            <div class="bg-gradient-to-b from-pink-100 via-yellow-50 to-white rounded-2xl p-6 mb-10 shadow-md">
                 <!-- Title for the story section -->
-                <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 px-4 rounded-lg mb-4 inline-block text-center w-full ml-4">
+                <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 px-4 rounded-lg mb-4 inline-block text-center">
                     Sofia e Beeh Sweet - Um pouco Sobre nós!
                 </h2>
 
-                <!-- Foto centralizada abaixo do título -->
-                <div class="flex justify-center mb-5 p-4">
-                    <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border border-pink-700 shadow-lg">
+                <!-- Circular photo frame for your picture - now inside gradient div, below title -->
+                <div class="flex justify-center my-6"> <!-- Centered and with margin -->
+                    <div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-pink-300 shadow-lg">
+                        <!-- Placeholder image for your photo -->
                         <img
                             src="https://placehold.co/400x400/FFD1DC/BE185D?text=Sua+Foto"
                             alt="Foto de Sofia"
@@ -79,79 +80,86 @@
                     </div>
                 </div>
 
-                <!-- Texto do sobre -->
-                <div class="flex flex-col items-center gap-5 p-4">
-                    <p class="text-md text-gray-700 leading-relaxed text-left w-full">
-                        <b>Sofia Rebeca Correia Cláudio</b> (Por um tempo foi conhecida como <b>Bebeca Cláudio</b> nas redes sociais, esse pseudônimo, foi por causa do segundo nome <b>Rebeca</b>, que <b>Sofia</b> trocou o R de <b>Rebeca</b> por B de <b>Barbie</b>, no qual ela era fanática na infância), por conta disso o nome da Confeitaria é <b>Beeh Sweet</b>, Beeh que se deriva de <b>Bebeca</b> e Sweet que é Doce em Inglês.
-                        <br/><br/>
-                        <b>Sofia</b> teve seu início de empreendedora desde a infância, no qual acompanhava seus pais com vendas de produtos caseiros fabricados por sua mãe: <b>Maria Aparecida Correia Cláudio</b>, e acompanhando seu pai com vendas de Rodos no porta a porta, também trabalhou com algumas empresas de Cosmético e Marketing Multinível, mas ela só passou a adotar algo de forma autônoma com o acompanhamento de seu pai <b>Mesaque Cláudio</b>, quando ela resolveu começar a empreender para auxiliar nas contas básicas da casa, isso ela ainda tinha apenas 11 anos de idade, <b>Sofia</b> se inspirou em uma das maiores confeiteiras de <i>Araçatuba</i>, a finada <b>Bethinha Bernardes</b> (<b>Bethinha Trufas</b>).
-                        <br/><br/>
-                        <b>Sofia</b> acredita que segue o ramo da confeitaria não apenas por aptidão, mas pela paixão e pela inspiração em seus pais e avós, a sua avó paterna vendia <b><u>balas de coco</u></b> e a avó materna foi considerada uma das maiores confeiteiras de <i>Araçatuba - SP</i>, <b>Clara Hermann Correia</b> foi confeiteira do <i>Café Delicia</i> em <i>Araçatuba</i>. Seus pais seguiram carregando esse legado familiar, fazendo <b><u>balas de coco</u></b>, <b><u>pães</u></b>, <b><u>roscas</u></b>, <b><u><i>doces em compota</i></u></b> (<i><u>cidra, mamão verde, goiabada, bananada</u></i>), <b><u>tortas doces e salgadas</u></b>, <b><u>bolachinhas de nata</u></b>. E aos 11 anos <b>Sofia</b> e sua mãe começaram o <b>Sofia Truffas</b>, fabricando e vendendo <b><u>bombons</u></b>, <b><u>trufas</u></b>, <b><u>barrinhas de chocolate</u></b>, pelas ruas de <i>Araçatuba</i>, <b>Sofia</b> seguia empreendendo acompanhada de seu pai e posteriormente em sua vida adulta, ela escolheu <i>Botucatu</i> para Habitar, onde ela acompanhada de seu noivo <b>Felipe Faggian de Anchieta</b> e sua sogra <b>Regina de Fátima Faggian de Anchieta</b>, fazendo doces em casa, tais como: <b><u>Brigadeiros Gourmet</u></b>, <b><u>Whoopie Pie</u></b> (ela deu início como pioneira desse doce no <i>Brasil</i>, na cidade de <i>Botucatu</i>, no período da Pandemia), <b><u>Brownies</u></b>, que ela teve alguns representantes como revendedores: <i>Giba's Salgados</i>, <i>Expresso Food Brasil</i>, <i>Bar do Zé Simão</i>, <i>Rei do Gás</i>, entre outros... Além de vender os docinhos e os <b><u>Brownies</u></b> pelas ruas da cidade. <b>Sofia</b> migrou para o Delivery, ela e o <b>Felipe</b> criaram uma Lanchonete Delivery no qual seguem até hoje, porém mudaram o nome de <b>@gawksburger</b> para <b>@tavernadogaweken</b> e agora retorna com os doces por delivery no IFood, o que é inspirador é que ambos começaram do absoluto zero, hoje têm alguns dos melhores equipamentos do mercado e também os insumos de altíssima qualidade, com um dos melhores fornecedores de carne do <i>estado de São Paulo</i>, um dos maiores fornecedores de pão para uma das maiores redes de fast-food do <i>Brasil</i> e do mundo. <b>Sofia</b> e <b>Felipe</b> conseguiram quitar uma moto com 10 prestações de um financiamento que tinha sido feito para 48 parcelas, essa história é emocionante e seus clientes fazem parte dessa história!
-                        <br/><br/>
-                        <b>Sofia</b> atualmente é formada em Design de Moda EAD pela <b>Unifatecie</b>, no qual enquanto ela estudava, vendia seus doces pelas ruas de <i>Botucatu</i>, <b>Sofia</b> mescla a Estética bem apurada, de modo criativo, brinca com o aroma (flavorização) e com o sabor (degustação), ela conta que a magia de mexer com os sentidos e percepções é contagiante e traz uma incrível experiência para seus clientes, ela desenvolve, cria, brinca com cores, aromas, sabores e texturas, com alimentos mais contemporâneos, resgata alimentos que deixaram de ser consumidos pós revolução industrial, que eram muito consumidos pelos povos primitivos das <i>Américas</i> e também referências <i>Árabes</i>, <i>Asiáticas</i>, <i>Japonesas</i>, da culinária <i>Chinesa</i>, <i>Coreana</i>, <i>Indiana</i>, entre outras regiões e Culturas. Entusiasta dos conhecimentos históricos dos Povos <i>Incas</i>, <i>Maias</i> e <i>Astecas</i>, apaixonada por <b>SuperFoods</b>, <b>PANC's</b> (Plantas Alimentícias não Convencionais), <b>Flores Comestíveis</b> (<i>que entra no sentido Exótico, PANC e até primitivo, pois 85% das flores são comestíveis, e eram amplamente consumidas in natura ou como xaropes, geleias, em saladas, decorações de bolos, flores cristalizadas para adoçar chás, etc...</i>) <b>Sofia</b> resgata algo que se perdeu no pós revolução industrial que agora é amplamente difundido pela alta gastronomia e confeitaria.
-                        <br/><br/>
-                        Ela também traz conhecimentos milenares que ela aprendeu e aprimorou graças a seu pai <b>Mesaque Cláudio</b>, que é terapeuta naturista e fitoterapeuta, trazendo conhecimentos da fitoterapia, aromaterapia nos alimentos, trofoterapia, conecta tudo no alimento, pois ela crê que a vida anda em total sintonia, que nada é separado, mas sim holístico!
-                        <br/><br/>
-                        Ela acredita que a alimentação é uma parte fundamental da vida, que traz saúde, bem-estar, felicidade, harmonia, aconchego, sentido de pertencimento, encontro, festividades, nada se separa! Também acredita que devemos estar constantemente romantizando os momentos, pois todos nascemos para amar, zelar, cuidar e se relacionar, esse é o segredo da vida!
-                        <br/><br/>
-                        <b>Sofia</b> não é apenas uma Confeiteira ou Designer de moda, mas sim uma <b>Polimata Autodidata</b> em vários ramos do saber!
-                    </p>
-                </div>
+                <!-- Sofia's story content -->
+                <p class="text-md text-gray-700 leading-relaxed text-left">
+                    <b>Sofia Rebeca Correia Cláudio</b> (Por um tempo foi conhecida como <b>Bebeca Cláudio</b> nas redes sociais, esse pseudônimo, foi por causa do segundo nome <b>Rebeca</b>, que <b>Sofia</b> trocou o R de <b>Rebeca</b> por B de <b>Barbie</b>, no qual ela era fanática na infância), por conta disso o nome da Confeitaria é <b>Beeh Sweet</b>, Beeh que se deriva de <b>Bebeca</b> e Sweet que é Doce em Inglês.
+                    <br/><br/>
+                    <b>Sofia</b> teve seu início de empreendedora desde a infância, no qual acompanhava seus pais com vendas de produtos caseiros fabricados por sua mãe: <b>Maria Aparecida Correia Cláudio</b>, e acompanhando seu pai com vendas de Rodos no porta a porta, também trabalhou com algumas empresas de Cosmético e Marketing Multinível, mas ela só passou a adotar algo de forma autônoma com o acompanhamento de seu pai <b>Mesaque Cláudio</b>, quando ela resolveu começar a empreender para auxiliar nas contas básicas da casa, isso ela ainda tinha apenas 11 anos de idade, <b>Sofia</b> se inspirou em uma das maiores confeiteiras de <i>Araçatuba</i>, a finada <b>Bethinha Bernardes</b> (<b>Bethinha Trufas</b>).
+                    <br/><br/>
+                    <b>Sofia</b> acredita que segue o ramo da confeitaria não apenas por aptidão, mas pela paixão e pela inspiração em seus pais e avós, a sua avó paterna vendia <b><u>balas de coco</u></b> e a avó materna foi considerada uma de das maiores confeiteiras de <i>Araçatuba - SP</i>, <b>Clara Hermann Correia</b> foi confeiteira do <i>Café Delicia</i> em <i>Araçatuba</i>. Seus pais seguiram carregando esse legado familiar, fazendo <b><u>balas de coco</u></b>, <b><u>pães</u></b>, <b><u>roscas</u></b>, <b><u><i>doces em compota</i></u></b> (cidra, mamão verde, goiabada, bananada), <b><u>tortas doces e salgadas</u></b>, <b><u>bolachinhas de nata</u></b>. E aos 11 anos <b>Sofia</b> e sua mãe começaram o <b>Sofia Truffas</b>, fabricando e vendendo <b><u>bombons</u></b>, <b><u>trufas</u></b>, <b><u>barrinhas de chocolate</u></b>, pelas ruas de <i>Araçatuba</i>, <b>Sofia</b> seguia empreendendo acompanhada de seu pai e posteriormente em sua vida adulta, ela escolheu <i>Botucatu</i> para Habitar, onde ela acompanhada de seu noivo <b>Felipe Faggian de Anchieta</b> e sua sogra <b>Regina de Fátima Faggian de Anchieta</b>, fazendo doces em casa, tais como: <b><u>Brigadeiros Gourmet</u></b>, <b><u>Whoopie Pie</u></b> (ela deu início como pioneira desse doce no <i>Brasil</i>, na cidade de <i>Botucatu</i>, no período da Pandemia), <b><u>Brownies</u></b>, que ela teve alguns representantes como revendedores: <i>Giba's Salgados</i>, <i>Expresso Food Brasil</i>, <i>Bar do Zé Simão</i>, <i>Rei do Gás</i>, entre outros... Além de vender os docinhos e os <b><u>Brownies</u></b> pelas ruas da cidade. <b>Sofia</b> migrou para o Delivery, ela e o <b>Felipe</b> criaram uma Lanchonete Delivery no qual seguem até hoje, porém mudaram o nome de <b>@gawksburger</b> para <b>@tavernadogaweken</b> e agora retorna com os doces por delivery no IFood, o que é inspirador é que ambos começaram do absoluto zero, hoje têm alguns dos melhores equipamentos do mercado e também os insumos de altíssima qualidade, com um dos melhores fornecedores de carne do <i>estado de São Paulo</i>, um dos maiores fornecedores de pão para uma das maiores redes de fast-food do <i>Brasil</i> e do mundo. <b>Sofia</b> e <b>Felipe</b> conseguiram quitar uma moto com 10 prestações de um financiamento que tinha sido feito para 48 parcelas, essa história é emocionante e seus clientes fazem parte dessa história!
+                    <br/><br/>
+                    <b>Sofia</b> atualmente é formada em Design de Moda EAD pela <b>Unifatecie</b>, no qual enquanto ela estudava, vendia seus doces pelas ruas de <i>Botucatu</i>, <b>Sofia</b> mescla a Estética bem apurada, de modo criativo, brinca com o aroma (flavorização) e com o sabor (degustação), ela conta que a magia de mexer com os sentidos e percepções é contagiante e traz uma incrível experiência para seus clientes, ela desenvolve, cria, brinca com cores, aromas, sabores e texturas, com alimentos mais contemporâneos, resgata alimentos que deixaram de ser consumidos pós revolução industrial, que eram muito consumidos pelos povos primitivos das <i>Américas</i> e também referências <i>Árabes</i>, <i>Asiáticas</i>, <i>Japonesas</i>, da culinária <i>Chinesa</i>, <i>Coreana</i>, <i>Indiana</i>, entre outras regiões e Culturas. Entusiasta dos conhecimentos históricos dos Povos <i>Incas</i>, <i>Maias</i> e <i>Astecas</i>, apaixonada por <b>SuperFoods</b>, <b>PANC's</b> (Plantas Alimentícias não Convencionais), <b>Flores Comestíveis</b> (<i>que entra no sentido Exótico, PANC e até primitivo, pois 85% das flores são comestíveis, e eram amplamente consumidas in natura ou como xaropes, geleias, em saladas, decorações de bolos, flores cristalizadas para adoçar chás, etc...</i>) <b>Sofia</b> resgata algo que se perdeu no pós revolução industrial que agora é amplamente difundido pela alta gastronomia e confeitaria.
+                    <br/><br/>
+                    Ela também traz conhecimentos milenares que ela aprendeu e aprimorou graças a seu pai <b>Mesaque Cláudio</b>, que é terapeuta naturista e fitoterapeuta, trazendo conhecimentos da fitoterapia, aromaterapia nos alimentos, trofoterapia, conecta tudo no alimento, pois ela crê que a vida anda em total sintonia, que nada é separado, mas sim holístico!
+                    <br/><br/>
+                    Ela acredita que a alimentação é uma parte fundamental da vida, que traz saúde, bem-estar, felicidade, harmonia, aconchego, sentido de pertencimento, encontro, festividades, nada se separa! Também acredita que devemos estar constantemente romantizando os momentos, pois todos nascemos para amar, zelar, cuidar e se relacionar, esse é o segredo da vida!
+                    <br/><br/>
+                    <b>Sofia</b> não é apenas uma Confeiteira ou Designer de moda, mas sim uma <b>Polimata Autodidata</b> em vários ramos do saber!
+                </p>
             </div>
 
             <!-- Call to action text - now with the new, richer description -->
-            <p class="text-lg md:text-xl text-gray-800 mb-8 leading-relaxed p-4">
+            <p class="text-lg md:text-xl text-gray-800 mb-8 leading-relaxed">
                 Descubra a Magia e Encantos do nosso Cardápio - Criados com Amor, pensando nos sensoriais, como na Estética, Aroma e Sabor - Fragmentos de <b>Sofia</b> (Era Conhecida como <b>Bebeca Cláudio</b>, por isso Beeh Sweet (Beeh Deriva-se de <b>Bebeca</b> e Sweet é Doce).
             </p>
 
             <!-- Button to redirect to the iFood menu -->
             <button
                 onclick="handleIfoodRedirect()"
-                class="bg-gradient-to-r from-pink-500 to-red-500 text-white font-bold py-4 px-8 rounded-full text-xl md:text-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-pink-300 active:bg-pink-700 mb-8 p-4"
+                class="bg-gradient-to-r from-pink-500 to-red-500 text-white font-bold py-4 px-8 rounded-full text-xl md:text-2xl
+                        shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out
+                        focus:outline-none focus:ring-4 focus:ring-pink-300 active:bg-pink-700"
                 aria-label="Ver o cardápio da Beeh Sweet no iFood"
             >
                 Ver Cardápio no iFood!
             </button>
 
             <!-- Section for Depoimentos -->
-            <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 w-full text-left mt-10 ml-4" style="margin-left:0; margin-right:0;">
-                Depoimentos:
-            </h2>
-            <div class="bg-white px-6 text-gray-700 text-left w-full mb-8 mt-10 p-4">
-                <p class="mb-4">"O doce da Beeh Sweet me transportou para a infância! Sabor e carinho em cada mordida." - Cliente Satisfeito</p>
-                <p class="mb-4">"Não são apenas doces, são experiências sensoriais. A Sofia realmente entrega magia!" - Admirador</p>
-                <p><i>(Seus depoimentos serão inseridos aqui. Você pode adicionar quantos quiser, mantendo a formatação de parágrafo.)</i></p>
+            <div class="mt-10 mb-8 mx-[-2rem] w-[calc(100%+4rem)] overflow-hidden shadow-md">
+                <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 px-4 text-left">
+                    Depoimentos:
+                </h2>
+                <div class="bg-white p-6 text-gray-700 text-left">
+                    <p class="mb-4">"O doce da Beeh Sweet me transportou para a infância! Sabor e carinho em cada mordida." - Cliente Satisfeito</p>
+                    <p class="mb-4">"Não são apenas doces, são experiências sensoriais. A Sofia realmente entrega magia!" - Admirador</p>
+                    <p><i>(Seus depoimentos serão inseridos aqui. Você pode adicionar quantos quiser, mantendo a formatação de parágrafo.)</i></p>
+                </div>
             </div>
 
-            <!-- Section for "Conheça também" as a full-width strip with logos abaixo -->
-            <h2 class="bg-lime-500 text-white font-bold text-2xl py-3 w-full text-left ml-4" style="margin-left:0; margin-right:0;">
-                Conheça também:
-            </h2>
-            <div class="bg-white px-6 flex flex-wrap justify-center gap-6 w-full mb-8 mt-10 p-4" id="associated-businesses-container">
-                <!-- Logos will be inserted here by JavaScript -->
+            <!-- Section for "Conheça também" as a full-width strip with logos below -->
+            <div class="mt-10 mb-8 mx-[-2rem] w-[calc(100%+4rem)] overflow-hidden shadow-md">
+                <h2 class="bg-lime-500 text-white font-bold text-2xl py-3 px-4 text-left">
+                    Conheça também:
+                </h2>
+                <!-- Container for logos - uses a white background and centralizes items -->
+                <div class="bg-white p-6 flex flex-wrap justify-center gap-6" id="associated-businesses-container">
+                    <!-- Logos will be inserted here by JavaScript -->
+                </div>
             </div>
 
             <!-- New section for "Estamos nas redes:" -->
-            <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 w-full text-left ml-4" style="margin-left:0; margin-right:0;">
-                Estamos nas redes:
-            </h2>
-            <div class="bg-white px-6 text-gray-700 text-left w-full mb-8 mt-10 p-4">
-                <p class="mb-4">Aqui você pode incorporar vídeos do seu Instagram ou TikTok!</p>
-                <p>Para adicionar um vídeo, vá até o vídeo no Instagram ou TikTok, procure a opção "Incorporar" ou "Embed", copie o código e cole-o aqui.</p>
-                <!-- Example placeholder for embedded video: -->
-                <div class="relative w-full overflow-hidden rounded-lg mb-4" style="padding-top: 100%;">
-                    <iframe
-                        class="absolute top-0 left-0 w-full h-full"
-                        src="URL_DO_VIDEO_DO_INSTAGRAM_OU_TIKTOK"
-                        frameborder="0"
-                        allowfullscreen
-                        title="Vídeo do Instagram/TikTok"
-                    ></iframe>
+            <div class="mt-10 mb-8 mx-[-2rem] w-[calc(100%+4rem)] overflow-hidden shadow-md">
+                <h2 class="bg-pink-400 text-yellow-100 font-bold text-2xl py-3 px-4 text-left">
+                    Estamos nas redes:
+                </h2>
+                <div class="bg-white p-6 text-gray-700 text-left">
+                    <p class="mb-4">Aqui você pode incorporar vídeos do seu Instagram ou TikTok!</p>
+                    <p>Para adicionar um vídeo, vá até o vídeo no Instagram ou TikTok, procure a opção "Incorporar" ou "Embed", copie o código e cole-o aqui.</p>
+                    <!-- Example placeholder for embedded video: -->
+                    <div class="relative w-full overflow-hidden rounded-lg mb-4" style="padding-top: 100%;">
+                        <iframe
+                            class="absolute top-0 left-0 w-full h-full"
+                            src="URL_DO_VIDEO_DO_INSTAGRAM_OU_TIKTOK"
+                            frameborder="0"
+                            allowfullscreen
+                            title="Vídeo do Instagram/TikTok"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
 
             <!-- Social media link in the footer -->
-            <p class="text-sm text-gray-500 mt-8 p-4">
+            <p class="text-sm text-gray-500 mt-8">
                 Siga-nos no Instagram: <a href="https://instagram.com/beehsweetdoces" target="_blank" rel="noopener noreferrer" class="text-pink-600 hover:underline">@beehsweetdoces</a>
             </p>
         </div>
